@@ -54,6 +54,15 @@ Both offer:
   - Free tier includes unlimited devices
   - Available on desktop, mobile, and browsers
 
+Additional Password Managers that are local-first (not recommended for beginners as these don't backup credentials by default):
+- [2FAS Pass](https://2fas.com/pass/)
+- [KeyPassXC](https://keepassxc.org)
+
+Also open source, free, and cross-platform.
+
+### Apple Passwords App
+If you only use Apple devices, the [Passwords app](https://apps.apple.com/us/app/passwords/id6473799789) is a solid choice. Avoid it entirely if you use non-Apple devices.
+
 ### Setup Recommendations
 - Use a long master password (preferably 4–5 random words)
 - Enable 2FA for your password manager
@@ -76,6 +85,8 @@ Recommendations:
 - Enable encrypted backups if supported
 - Avoid relying solely on one device without backups
 - Never screenshot QR codes or store them unencrypted
+
+**DO NOT USE YOUR BROWSER AS A PASSWORD MANAGER**
 
 ---
 
@@ -137,7 +148,7 @@ These are almost always offered by all online accounts when activating 2FA.
 
 Best practices:
 - Save recovery codes immediately
-- Store them offline or in an encrypted password manager (not your main vault! Use a separate account with a different password when using a password manager!)
+- Store them offline (a printed paper) or in an encrypted password manager (not your main vault! Use a separate account with a different password when using a password manager!)
 - Never keep them only on the device used for authentication
 
 Without recovery codes, account recovery may be impossible.
@@ -146,11 +157,11 @@ Without recovery codes, account recovery may be impossible.
 # File Storage, Backup, and Sharing
 
 Secure storage is about both **encryption** and **availability**, and for performing backups. In this list I will only suggest E2EE options for storing your data.
-This means no one, not even the cloud storage provider, can access your data. All the options below are cross-platform.
+This means no one, not even the cloud storage provider, can access your data, unless you explicitly share it with other users. All the options below are cross-platform.
 
 Free services that offer E2EE storage by default (with additional paid options):
 - [Mega](https://mega.nz/) - Offers 20GB of free storage (open source clients)
-- [Ente Phtos](https://ente.io/) - Offers 10GB of free storage for photos & videos (fully open source)
+- [Ente Photos](https://ente.io/) - Offers 10GB of free storage for photos & videos (fully open source)
 - [Ente Locker](https://ente.io/locker/) - Offers 100 items (100 files) worth of storage for free - useful for documents and such.
 - [Proton Drive](https://proton.me/drive) - Offers 5GB of free storage, part of Proton ecosystem (open source clients)
 
@@ -186,19 +197,33 @@ Aside from those, there are multiple privacy-centric browsers that are based on 
 - [Tor Browser](https://www.torproject.org/download/) - a unique browser that lets you connect through the [Tor network](https://en.wikipedia.org/wiki/Tor_(network)) to any website.
 - [Zen Browser](https://zen-browser.app/) - A Firefox-based privacy focused browser that has additional customization and productivity tools.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/ungoogled-chromium-binaries/) - Basically the Chromium browser, with all the Google services and telemetry removed. This is the closest you can get to Google Chrome without any Google dependencies.
-In some cases, these might be more
+In some cases, these might be better for privacy, although for most users Brave and Firefox (hardened) should be enough
 
-Avoid installing unnecessary extensions, as they increase attack surface.
+## Safari Disclaimer
+As with the Passwords app, Safari is a solid choice for Apple users. However, if you use other devices, avoid.
 
+## Final recommendations
+- Avoid installing unnecessary or unknown extensions, as they increase attack surface.
+- Be mindful of the websites you visit and files you download
+- If it feels like a scam, it is a scam.
+
+**DO NOT USE YOUR BROWSER AS A PASSWORD MANAGER**
 ---
 
 # Search Engines
+If you are using Google (which you most likely are), switch it immediately as it is one of the single points where Google can collect most of your personal information.
+Please note that there is a tradeoff with the accuracy and depth of results when switching search engines, however the difference is not that large.
+In my particular experience, Brave has the best results of privacy browsers, followed by Startpage.
 
-Privacy-respecting alternatives to Google:
-- **:contentReference[oaicite:8]{index=8}**
-- **:contentReference[oaicite:9]{index=9}**
+Instead try these privacy-respecting alternatives to Google:
+- [Brave Search](https://search.brave.com/) - Independent search engine that uses its own index. Comes bundled with Brave browser by default.
+- [DuckDuckGo](https://duckduckgo.com/) - One of the first privacy focused search engines. Uses anonimized Bing results.
+- [Startpage](https://www.startpage.com/en/) - Anonimizes Google search results.
+- Ecosia
+- Qwant
+- SearXNG
 
-Using Google occasionally is fine, but avoid staying logged in for routine searches.
+Using Google occasionally is OK, but do not use it logged in.
 
 ---
 
