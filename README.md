@@ -163,7 +163,7 @@ Free services that offer E2EE storage by default (with additional paid options):
 - [Mega](https://mega.nz/) - Offers 20GB of free storage (open source clients)
 - [Ente Photos](https://ente.io/) - Offers 10GB of free storage for photos & videos (fully open source)
 - [Ente Locker](https://ente.io/locker/) - Offers 100 items (100 files) worth of storage for free - useful for documents and such.
-- [Proton Drive](https://proton.me/drive) - Offers 5GB of free storage, part of Proton ecosystem (open source clients). It is also a great replacement for the Google docs ecosytem (although it is not as fully featured). It offers collaborative [Docs](https://proton.me/drive/docs) and [Sheets](https://proton.me/drive/sheets) with E2EE by default, fully online and synced across devices.
+- [Proton Drive](https://proton.me/drive) - Offers 5GB of free storage, part of Proton ecosystem (open source clients). It is also a great replacement for the Google docs ecosytem (although it is not as fully featured). It offers collaborative [Docs](https://proton.me/drive/docs) and [Sheets](https://proton.me/drive/sheets) with E2EE by default, fully online and synced across devices. No targeted ads, no AI training with your documents, etc.
 
 ### Simple Backup Rule
 
@@ -226,23 +226,58 @@ Instead try these privacy-respecting alternatives to Google:
 - [Qwant](https://www.qwant.com/) - Independent and privacy search engine with some reliance on Bing results.
 - [SearXNG](https://searx.space/) - Open-source self-hosted search engine. You need to choose an instance in the link to use.
 
-Using Google occasionally is OK, but do not use it logged in.
-
 ---
 
 # Email
 
 Email is a high-value target for attackers.
 
-Recommended free option:
-- **:contentReference[oaicite:10]{index=10}**
+Popular privacy-focused free email providers
+- [Proton Mail](https://proton.me/mail) - Free 1GB of storage for emails, calendar, and integrates with Proton ecosystem (Docs, SimpleLogin, etc). E2EE encrypted at rest and across PGP providers. Also supports password-protected emails.
+- [Tuta Mail](https://tuta.com/) - Free 1GB of storage for emails, calendar, and uses 100% renewable energy across. Supports E2EE between Tuta accounts. Emails are also E2EE encrypted at rest. Supports password-protected emails.
+
+Additional privacy-focused email providers:
+- 
 
 Benefits:
-- No ad scanning
-- Built-in encryption
+- No email scanning, AI training, etc
+- No ads
+- Built-in encryption (with support for E2EE)
 - Strong account security defaults
 
-You can forward email from existing providers rather than migrating everything at once.
+**Note:** Using encrypted mail with external email clients (such as [Thunderbird](https://www.thunderbird.net/en-US/)) is usually very difficult, or in some cases impossible. Proton requires a paid plan and additional setup, and Tuta does not support external clients at all. You can however use them across devices with their website and apps.
+
+You can forward email from existing providers, and slowly migrate your email accounts.
+
+## Email Aliasing
+Email aliasing (or masking/relaying) is the practice of hiding your email when signing up to different websites. The way it works is that a provider lets you create (or generate) a specific email address that is anonymous and forwards mail to your main inbox.
+
+For example, if your main email is:
+`john.doe@gmail.com`
+
+You might create an alias for Netflix:
+`7ash7sdvnbe.netflix@mozmail.com` which automatically forwards to --> `john.doe@gmail.com` without ever exposing your real email to Netflix.
+
+This has multiple benefits: 
+- The first one is security. By having a unique alias for each service that you sign up, an attacker trying to gain access would need to both have your specific alias that you use for that service + your password (almost like having two passwords).
+- Secondly, even if you trust where you're signing up, this protects your email from being exposed in data breaches of your provider. This provides strong anonimity in cases of your information being leaked to the dark web.
+- Thirdly, if you start receiving spam email from one of your aliases that you never signed up for, you know exactly which service leaked or sold your email.
+- Finally, you can disable any alias whenever you want (e.g. a service you signed up for starts spamming you without consent).
+- Some of them also remove trackers from email depending on your tier (Trackers let the sender know when and if you opened an email, what your IP is, and other system information).
+
+The best free email aliasing services are:
+- [DuckDuckGo Email Protection](https://duckduckgo.com/email/) - This one is truly the only free and unlimited email aliasing tool out there. DuckDuckGo is well known in the privacy world, so it is trustworthy. They let you create a custom @duck.com address that forwards to your real address, plus unlimited randomly-generated aliases for your different accounts. You need their browser and/or extension to generate aliases (although it is also possible to do it inside Bitwarden). Removes trackers by default.
+- [Addy.io](https://addy.io/) - Another free service that lets you create unlimited aliases. However, it caps your usage at 10MB of monthly bandwidth (which should be enough for most users). Also has a pretty generous $1/mo tier.
+
+Additional email aliasing services:
+Note that these also have free tiers, but they limit the amount of aliases you can create, making them better as paid subscriptions:
+- [Firefox Relay](https://relay.firefox.com/) - Allows the creation of 5 email aliases for free, plus unlimited aliases for $0.99/mo, and phone protection for $3.99/mo
+- [Simple Login](https://simplelogin.io/) - Allows the creation of 10 email aliases for free, plus unlimited access for $4/mo (also included in the Proton Unlimited subscription, and integrates really well with Proton Pass)
+- [Apple Hide My Email](https://support.apple.com/en-us/105078) - Recommended if you only use Apple devices. Requires a $0.99/mo iCloud subscription. It also has a free tier when using the "Sign up with Apple" option.
+- [AdGuard Mail](https://adguard-mail.com/en/welcome.html) - Free limited tier with $2.99/mo pricing for premium
+
+You can get more information on different providers [here](https://github.com/fynks/email-aliasing-comparison). 
+
 
 ---
 
