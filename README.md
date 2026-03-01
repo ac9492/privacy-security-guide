@@ -163,7 +163,7 @@ Free services that offer E2EE storage by default (with additional paid options):
 - [Mega](https://mega.nz/) - Offers 20GB of free storage (open source clients)
 - [Ente Photos](https://ente.io/) - Offers 10GB of free storage for photos & videos (fully open source)
 - [Ente Locker](https://ente.io/locker/) - Offers 100 items (100 files) worth of storage for free - useful for documents and such.
-- [Proton Drive](https://proton.me/drive) - Offers 5GB of free storage, part of Proton ecosystem (open source clients)
+- [Proton Drive](https://proton.me/drive) - Offers 5GB of free storage, part of Proton ecosystem (open source clients). It is also a great replacement for the Google docs ecosytem (although it is not as fully featured). It offers collaborative [Docs](https://proton.me/drive/docs) and [Sheets](https://proton.me/drive/sheets) with E2EE by default, fully online and synced across devices.
 
 ### Simple Backup Rule
 
@@ -188,7 +188,7 @@ I recommend immediately ditching any big-tech browsers, such as Google Chrome, M
 
 Instead, you can use one of the two big privacy browsers:
 - [Brave](https://brave.com/) - Blocks ads, trackers, and fingerprinting by default, no additional configuration needed. Chromium-based, so it works with all Google Chrome extensions and feels very similar.
-- [Mozilla Firefox](http://firefox.com/) - Only major web browser that uses a non-big-tech engine (Gecko). Requires additional configuration for better privacy. If you're interested in Firefox, I recommend downloading uBlock Origin from their add-ons store and installing it (blocks trackers and ads). Replace your search engine with one of the ones in the following section (by default they use Google), and also replace your user.js file with [Betterfox](https://github.com/yokoffing/Betterfox/tree/main) which are just settings that improve your privacy.
+- [Mozilla Firefox](http://firefox.com/) - Only major web browser that uses a non-big-tech engine ([Gecko](https://en.wikipedia.org/wiki/Gecko_(software))). Requires additional configuration for better privacy. If you're interested in Firefox, I recommend downloading [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (blocks trackers and ads). Replace your search engine with one of the ones in the following section (by default they use Google), and also replace your user.js file with [Betterfox](https://github.com/yokoffing/Betterfox/tree/main) which are just settings that improve your privacy.
 
 Aside from those, there are multiple privacy-centric browsers that are based on Gecko or Chromium, but aren't as widely used. Among them are:
 - [DuckDuckGo Browser](https://duckduckgo.com/) - Privacy-centric browser with privacy search by default, tracker blocking, and fully-incognito mode with ability to delete browsing data at any point (does not allow extensions)
