@@ -238,28 +238,37 @@ Free services that offer E2EE storage by default (with additional paid options):
 
 ### Simple Backup Rule
 
-At minimum:
+At minimum I recommend:
 - One local copy
 - One cloud copy
 
 Ideally:
 - One additional external or offline copy (3-2-1 rule)
 
-Encryption matters less if data is lost permanently.
+## Additional Cloud Storage Options
 
+For more tech-savvy users, or if you need more storage and want something that costs less than the paid plans above, there are two additional options:
+- [Setup a NAS](https://massive.io/how-to/how-to-set-up-a-nas/), which is a local hardware device that lets you insert hard drives into it. No subscription fees, but the device can be expensive.
+- Use any Cloud Storage provider together with [Cryptomator](http://cryptomator.org/). This also involves some tech setup, but Cryptomator lets you encrypt files before they are uploaded, with your own password. This lets you securely store files even on Google Drive or other big tech accounts. I personally suggest using something like [pCloud](https://www.pcloud.com/) or [Koofr](https://koofr.eu/), which have lifetime deals, so you pay once, and don't have to worry about recurring subscription fees. (pCloud goes on sale for $279 for 2TB of lifetime storage, and Koofr goes on sale for $139 for 1TB of lifetime storage).
 ---
 
 # Browsers
 
-Your browser is one of the largest privacy attack surfaces.
+Your browser is one of the largest privacy attack surfaces. With cookies, ads, trackers, and fingerprinting, incognito mode and VPNs hardly work on their own without a privacy-respecting browser.
+I recommend immediately ditching any big-tech browsers, such as Google Chrome, Microsoft Edge, Samsung Browser, Opera, etc.
 
-Recommended browsers:
-- **:contentReference[oaicite:6]{index=6}**
-- **:contentReference[oaicite:7]{index=7}**
+Instead, you can use one of the two big privacy browsers:
+- [Brave](https://brave.com/) - Blocks ads, trackers, and fingerprinting by default, no additional configuration needed. Chromium-based, so it works with all Google Chrome extensions and feels very similar.
+- [Mozilla Firefox](http://firefox.com/) - Only major web browser that uses a non-big-tech engine (Gecko). Requires additional configuration for better privacy. If you're interested in Firefox, I recommend downloading uBlock Origin from their add-ons store and installing it (blocks trackers and ads). Replace your search engine with one of the ones in the following section (by default they use Google), and also replace your user.js file with [Betterfox](https://github.com/yokoffing/Betterfox/tree/main) which are just settings that improve your privacy.
 
-Recommended extensions:
-- uBlock Origin
-- Built-in tracking protection enabled
+Aside from those, there are multiple privacy-centric browsers that are based on Gecko or Chromium, but aren't as widely used. Among them are:
+- [DuckDuckGo Browser](https://duckduckgo.com/) - Privacy-centric browser with privacy search by default, tracker blocking, and fully-incognito mode with ability to delete browsing data at any point (does not allow extensions)
+- [Mullvad Browser](https://mullvad.net/en/browser) - Privacy-hardened browser, which blocks trackers, cookies, and fingerprinting (Firefox/Gecko based) by default. It does not allow syncing or extensions.
+- [LibreWolf](https://librewolf.net/) - A hardened version of Firefox by default. If you want to skip the setup for hardening Firefox, you can download LibreWolf and use it as-is. Supports, syncing, profiles, and extensions.
+- [Tor Browser](https://www.torproject.org/download/) - a unique browser that lets you connect through the [Tor network](https://en.wikipedia.org/wiki/Tor_(network)) to any website.
+- [Zen Browser](https://zen-browser.app/) - A Firefox-based privacy focused browser that has additional customization and productivity tools.
+- [Ungoogled Chromium](https://ungoogled-software.github.io/ungoogled-chromium-binaries/) - Basically the Chromium browser, with all the Google services and telemetry removed. This is the closest you can get to Google Chrome without any Google dependencies.
+In some cases, these might be more
 
 Avoid installing unnecessary extensions, as they increase attack surface.
 
