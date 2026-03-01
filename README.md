@@ -2,6 +2,10 @@
 
 A practical, beginner-friendly guide to improving privacy and security on the internet by switching tools and adopting better habits — **for free**, without excessive technical complexity.
 
+[![GitHub Stars](https://img.shields.io/github/stars/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Star%20on%20GitHub)](https://github.com/ac9492/Complete-Privacy-and-Security-Guide)
+[![Last Commit](https://img.shields.io/github/last-commit/fynks/email-aliasing-comparison?style=for-the-badge&logo=github&label=Last%20Update)](https://github.com/ac9492/Complete-Privacy-and-Security-Guide/commits/main/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 ---
 
 ## Disclaimer
