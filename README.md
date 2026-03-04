@@ -50,8 +50,7 @@ Why password managers are essential:
 
 ### Recommended Free Options
 
-- [Proton Pass](https://proton.me/pass)
-- [Bitwarden](https://bitwarden.com/)
+I personally only recommend these 4 if you want to use a free password manager. Only look at other alternatives if you are willing to pay, because their free tier limitations are significant. Furthermore, I would not use 2FAS Pass or KeyPassXC unless you are comfortable setting up your own backup and syncing methods and distrust a cloud based password manager. 
 
 | Password Manager | Unlimited Passwords | Open-source | Cross platform | Cloud-based |
 |:----------:|:----------:|:----------:|:----------:|:----------:|
@@ -60,6 +59,17 @@ Why password managers are essential:
 | [2FAS Pass](https://2fas.com/pass/) | Yes | Yes | Partial | No |
 | [KeyPassXC](https://keepassxc.org) | Yes | Yes | Partial | No |
 
+### Other Popular Paid Options
+
+Note, the comparison only takes into account the free tiers of each password manager. If a password manager puts any sort of limit on multi-device access, the cross-platform table will be marked as "No".
+| [NordPass](https://nordpass.com/) | Yes | No | No | Yes |
+| [Keeper](https://www.keepersecurity.com/personal.html) | No | No | No | Yes |
+| [RoboForm](https://www.roboform.com/) | Yes | No | No | No |
+| [1Password](https://1password.com/) | No free tier | No free tier | No free tier | No free tier |
+| [LastPass](https://www.lastpass.com/) | Yes | No | No | Yes |
+| [Dashlane](https://www.dashlane.com/) | No free tier | No free tier | No free tier | No free tier |
+
+If you're currently using a paid password manager, and want to migrate to a free one, it is quite doable, you just need to export your passwords as a file, and reimport them into your new password manager. All password managers allow import/export of your vault.
 
 ### Apple Passwords App
 If you only use Apple devices, the [Passwords app](https://apps.apple.com/us/app/passwords/id6473799789) is a solid choice. Avoid it entirely if you use non-Apple devices.
@@ -77,7 +87,7 @@ Authenticator apps generate TOTP codes for two-factor authentication.
 
 Recommended free options:
 - [Aegis Authenticator](https://getaegis.app/) (Android)
-- [2FAS](https://2fas.com/) (iOS and Android)
+- [2FAS](https://2fas.com/) (iOS and Android + browser extension)
 - [Ente Auth](https://ente.io/auth/) (cross-platform)
 
 Recommendations:
