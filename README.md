@@ -69,9 +69,10 @@ Note, the comparison only takes into account the free tiers of each password man
 | [Keeper](https://www.keepersecurity.com/personal.html) | No | No | No | Yes |
 | [RoboForm](https://www.roboform.com/) | Yes | No | No | No |
 | [1Password](https://1password.com/) | No free tier | No | No free tier | No free tier |
-| [LastPass](https://www.lastpass.com/) | Yes | No | No | Yes |
+| [LastPass](https://www.lastpass.com/)* | Yes | No | No | Yes |
 | [Dashlane](https://www.dashlane.com/) | No free tier | No | No free tier | No free tier |
 
+* LastPass [has suffered](https://securityscorecard.com/blog/what-did-the-lastpass-breach-reveal-about-password-manager-security/) more than one data breach exposing user vaults. I can't recommend it.
 If you're currently using a paid password manager, and want to migrate to a free one, it is quite doable, you just need to export your passwords as a file, and reimport them into your new password manager. All password managers allow import/export of your vault.
 
 ### Apple Passwords App
