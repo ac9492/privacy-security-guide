@@ -53,16 +53,13 @@ Why password managers are essential:
 - [Proton Pass](https://proton.me/pass)
 - [Bitwarden](https://bitwarden.com/)
 
-Both offer:
-  - Open-source
-  - Free tier includes unlimited devices
-  - Available on desktop, mobile, and browsers
+| Password Manager | Unlimited Passwords | Open-source | Cross platform | Cloud-based |
+|:----------:|:----------:|:----------:|:----------:|:----------:|
+| [Bitwarden](https://bitwarden.com/) | Yes | Yes | Yes | Yes |
+| [Proton Pass](https://proton.me/pass) | Yes | Yes | Yes | Yes |
+| [2FAS Pass](https://2fas.com/pass/) | Yes | Yes | Partial | No |
+| [KeyPassXC](https://keepassxc.org) | Yes | Yes | Partial | No |
 
-Additional Password Managers that are local-first (not recommended for beginners as these don't backup credentials by default):
-- [2FAS Pass](https://2fas.com/pass/)
-- [KeyPassXC](https://keepassxc.org)
-
-Also open source, free, and cross-platform.
 
 ### Apple Passwords App
 If you only use Apple devices, the [Passwords app](https://apps.apple.com/us/app/passwords/id6473799789) is a solid choice. Avoid it entirely if you use non-Apple devices.
@@ -234,15 +231,6 @@ Instead try these privacy-respecting alternatives to Google:
 
 # Email
 
-Email is a high-value target for attackers.
-
-Popular privacy-focused free email providers
-- [Proton Mail](https://proton.me/mail) - Free 1GB of storage for emails, calendar, and integrates with Proton ecosystem (Docs, SimpleLogin, etc). E2EE encrypted at rest and across PGP providers. Also supports password-protected emails.
-- [Tuta Mail](https://tuta.com/) - Free 1GB of storage for emails, calendar, and uses 100% renewable energy across. Supports E2EE between Tuta accounts. Emails are also E2EE encrypted at rest. Supports password-protected emails.
-
-Additional privacy-focused email providers:
-- 
-
 Benefits:
 - No email scanning, AI training, etc
 - No ads
@@ -250,6 +238,24 @@ Benefits:
 - Strong account security defaults
 
 **Note:** Using encrypted mail with external email clients (such as [Thunderbird](https://www.thunderbird.net/en-US/)) is usually very difficult, or in some cases impossible. Proton requires a paid plan and additional setup, and Tuta does not support external clients at all. You can however use them across devices with their website and apps.
+
+---
+
+Popular privacy-focused free email providers
+- [Proton Mail](https://proton.me/mail) - Free 1GB of storage for emails, calendar, and integrates with Proton ecosystem (Docs, SimpleLogin, etc). E2EE encrypted at rest and across PGP providers. Also supports password-protected emails.
+- [Tuta Mail](https://tuta.com/) - Free 1GB of storage for emails, calendar, and uses 100% renewable energy across. Supports E2EE between Tuta accounts. Emails are also E2EE encrypted at rest. Supports password-protected emails.
+
+---
+
+Additional privacy-focused email providers:
+- Posteo
+- Fastmail
+- Mailfence
+- StartMail
+- Mailbox.org
+- 
+---
+
 
 You can forward email from existing providers, and slowly migrate your email accounts.
 
