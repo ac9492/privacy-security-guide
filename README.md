@@ -87,16 +87,22 @@ If you only use Apple devices, the [Passwords app](https://apps.apple.com/us/app
 
 ## Authenticator Apps
 
-Authenticator apps generate TOTP codes for two-factor authentication.
+Authenticator apps generate TOTP codes for two-factor authentication. Historically, Google Authenticator has been the app used for authentication, but it sends 
 
 Recommended free options:
-- [Aegis Authenticator](https://getaegis.app/) (Android)
-- [2FAS](https://2fas.com/) (iOS and Android + browser extension)
-- [Ente Auth](https://ente.io/auth/) (cross-platform)
+| TOTP App | Platforms | Backups | Encryption | Open Source |
+|:----------:|:----------:|:----------:|:----------:|:----------:|
+| [Aegis Authenticator](https://getaegis.app/) | Android | Auto backup to cloud of your choosing | AES-256-GCM | Yes |
+| [2FAS](https://2fas.com/) | iOS & Android + Browser Extension | Sync via iCloud (iOS), Google Drive (Android) | AES-GCM | Yes |
+| [Ente Auth](https://ente.io/auth/) | Web, iOS, Android, Windows, macOS, Linux | Sync via Ente account | AES-256 | Yes |
+| [Proton Authenticator](https://proton.me/authenticator) | Web, iOS, Android, Windows, macOS, Linux | Sync via Proton account | AES-256-GCM | Yes |
+| [Bitwarden Authenticator](https://bitwarden.com/products/authenticator/) | iOS & Android | Only via OS backups | AES-256-GCM | Yes |
+
+
+**AVOID USING YOUR PASSWORD MANAGER FOR STORING TOTP SECRETS/CODES, EVEN IF IT OFFERS THAT FEATURE**. This will significantly reduce your security, granting attackers who access your vault full access.
 
 Recommendations:
 - Maintain your TOTP codes on a separate device (a phone) versus on all your devices
-- DO NOT put TOTP codes in your password manager, even if it offers that option
 - Enable encrypted backups if supported
 - Avoid relying solely on one device without backups
 - Never screenshot QR codes or store them unencrypted
