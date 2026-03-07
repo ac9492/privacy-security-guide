@@ -64,7 +64,7 @@ I personally only recommend these 4 if you want to use a free password manager. 
 Note, the comparison only takes into account the free tiers of each password manager. If a password manager puts any sort of limit on multi-device access, the cross-platform table will be marked as "No".
 
 | Password Manager | Unlimited Passwords | Open-source | Cross platform | Cloud-based |
-|:----------:|:----------:|:----------:|:----------:|:----------:|
+|:----------|:----------:|:----------:|:----------:|:----------:|
 | [NordPass](https://nordpass.com/) | Yes | No | No | Yes |
 | [Keeper](https://www.keepersecurity.com/personal.html) | No | No | No | Yes |
 | [RoboForm](https://www.roboform.com/) | Yes | No | No | No |
@@ -91,7 +91,7 @@ Authenticator apps generate TOTP codes for two-factor authentication. Historical
 
 Recommended free options:
 | TOTP App | Platforms | Backups | Encryption | Open Source |
-|:----------:|:----------:|:----------:|:----------:|:----------:|
+|:----------|:----------:|:----------:|:----------:|:----------:|
 | [Aegis Authenticator](https://getaegis.app/) | Android | Auto backup to cloud of your choosing | AES-256-GCM | Yes |
 | [2FAS](https://2fas.com/) | iOS & Android + Browser Extension | Sync via iCloud (iOS), Google Drive (Android) | AES-GCM | Yes |
 | [Ente Auth](https://ente.io/auth/) | Web, iOS, Android, Windows, macOS, Linux | Sync via Ente account | AES-256 | Yes |
