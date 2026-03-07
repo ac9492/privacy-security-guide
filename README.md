@@ -87,16 +87,16 @@ If you only use Apple devices, the [Passwords app](https://apps.apple.com/us/app
 
 ## Authenticator Apps
 
-Authenticator apps generate TOTP codes for two-factor authentication. Historically, Google Authenticator has been the app used for authentication, but it sends unncessary telemetry, is closed-source, and backups are stored in Google Drive. Consider using one of the alternatives below which are fully compatible with all TOTP 2FA codes. I personally use 2FAS because it lets me store my TOTP secrets only on my mobile device, with easy ad-hoc sending via the browser extension, without storing any secrets, either temporarily or permanently on my desktop. However, all the options below are considered quite secure.
+Authenticator apps generate TOTP codes for two-factor authentication. Historically, Google Authenticator has been the most popular app used for 2FA, but it sends unncessary telemetry, is closed-source, and backups are stored in Google Drive. Instead, consider using one of the alternatives below. I personally use 2FAS because it lets me store my TOTP secrets on my mobile device, with easy ad-hoc sending via the browser extension, without storing any secrets, either temporarily or permanently, on my desktop. However, all the options below are considered secure and can be used completely locally without syncing if you desire.
 
-Recommended free options:
+
 | TOTP App | Platforms | Backups | Encryption | Open Source |
 |:----------|:----------:|:----------:|:----------:|:----------:|
 | [Aegis Authenticator](https://getaegis.app/) | Android | Auto backup to cloud of your choosing | AES-256-GCM | Yes |
 | [2FAS](https://2fas.com/) | iOS & Android + Browser Extension | Sync via iCloud (iOS), Google Drive (Android) | AES-GCM | Yes |
 | [Ente Auth](https://ente.io/auth/) | Web, iOS, Android, Windows, macOS, Linux | Sync via Ente account | AES-256 | Yes |
 | [Proton Authenticator](https://proton.me/authenticator) | Web, iOS, Android, Windows, macOS, Linux | Sync via Proton account | AES-256-GCM | Yes |
-| [Bitwarden Authenticator](https://bitwarden.com/products/authenticator/) | iOS & Android | Only via OS backups | AES-256-GCM | Yes |
+| [Bitwarden Authenticator](https://bitwarden.com/products/authenticator/) | iOS & Android | Local first, only via OS backups | AES-256-GCM | Yes |
 
 
 **AVOID USING YOUR PASSWORD MANAGER FOR STORING TOTP SECRETS/CODES, EVEN IF IT OFFERS THAT FEATURE**. This will significantly reduce your security, granting attackers who access your vault full access.
